@@ -18,7 +18,6 @@ body:
       - label: biopac
       - label: sensimetrics
       - label: eyetracker
-      - label: game controller
 
 - type: textarea
   attributes:
@@ -27,15 +26,15 @@ body:
 
 - type: markdown
   attributes:
-    value: "## task-mariostars_run-01"
+    value: "## task-reading"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-01 completion  
+    label: task-reading completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-01 issues
+    label: task-reading issues
     multiple: true
     options:
       - sleep
@@ -45,19 +44,19 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-01 notes
+    label: task-reading notes
 
 - type: markdown
   attributes:
-    value: "## task-mariostars_run-02"
+    value: "## task-listening"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-02 completion  
+    label: task-listening completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-02 issues
+    label: task-listening issues
     multiple: true
     options:
       - sleep
@@ -67,21 +66,21 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-02 notes
+    label: task-listening notes
 
 
 
 - type: markdown
   attributes:
-    value: "## task-mariostars_run-03"
+    value: "## task-aliceEn"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-03 completion  
+    label: task-aliceEn completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-03 issues
+    label: task-aliceEn issues
     multiple: true
     options:
       - sleep
@@ -91,19 +90,19 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-03 notes
+    label: task-aliceEn notes
 
 - type: markdown
   attributes:
-    value: "## task-mariostars_run-04"
+    value: "## task-aliceFr"
 - type: checkboxes
   attributes:
-    label: task-mariostars_run-04 completion  
+    label: task-aliceFr completion  
     options:
       - label: series was completed.
 - type: dropdown
   attributes:
-    label: task-mariostars_run-04 issues
+    label: task-aliceFr issues
     multiple: true
     options:
       - sleep
@@ -113,26 +112,4 @@ body:
       - controller issues
 - type: textarea
   attributes:
-    label: task-mariostars_run-04 notes
-
-- type: markdown
-  attributes:
-    value: "## task-mariostars_run-05"
-- type: checkboxes
-  attributes:
-    label: task-mariostars_run-05 completion  
-    options:
-      - label: series was completed.
-- type: dropdown
-  attributes:
-    label: task-mariostars_run-05 issues
-    multiple: true
-    options:
-      - sleep
-      - excessive motion
-      - eyetracking issues (crash, pupil loss)
-      - physio signal quality issue
-      - controller issues
-- type: textarea
-  attributes:
-    label: task-mariostars_run-05 notes
+    label: task-aliceFr notes
